@@ -5,7 +5,7 @@ var react = require('gulp-react');
 gulp.task('webserver', function() {
     return gulp.src('app')
     .pipe(webserver({
-        livereload: true,
+        livereload: false,
     }));
 });
 
