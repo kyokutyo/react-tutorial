@@ -1,3 +1,14 @@
-console.log('hogehoge');
-console.log('hogehoge');
-console.log('hogehoge');
+/** @jsx React.DOM */
+var CommentBox = React.createClass({
+    render: function() {
+        return (
+            <div className="commentBox">
+                Hello, world! I am a CommentBox.<br />
+            </div>
+        );
+    }
+});
+React.renderComponent(
+    <CommentBox />,
+    document.getElementById('content')
+);

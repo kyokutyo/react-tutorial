@@ -9,24 +9,6 @@
     </head>
     <body>
         <div id="content"></div>
-        <script type="text/jsx">
-            /** @jsx React.DOM */
-            var CommentBox = React.createClass({
-                render: function() {
-                    return (
-                        <div className="commentBox">
-                            Hello, world! I am a CommentBox.<br />
-                            Hello, world! I am a CommentBox.<br />
-                            Hello, world! I am a CommentBox.<br />
-                        </div>
-                    );
-                }
-            });
-            React.renderComponent(
-                <CommentBox />,
-                document.getElementById('content')
-            );
-        </script>
-        <script src="src/tutorial.js"></script>
+        <script src="build/tutorial.js"></script>
     </body>
 </html>
